@@ -86,7 +86,7 @@ export default function Header() {
           {/* Right */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com"
+              href="https://github.com/MusaevAkobirSanokulUgli/genai-multimodal-api"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center gap-1.5 text-sm transition-colors duration-200"

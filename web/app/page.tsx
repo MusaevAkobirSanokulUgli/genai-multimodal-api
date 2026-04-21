@@ -415,7 +415,7 @@ export default function HomePage() {
               Interactive Demo
             </Link>
             <a
-              href="http://localhost:8000/docs"
+              href="https://github.com/MusaevAkobirSanokulUgli/genai-multimodal-api"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-7 py-3.5 rounded-2xl font-bold text-sm transition-all duration-200"
@@ -426,7 +426,7 @@ export default function HomePage() {
               }}
             >
               <Code2 style={{ width: 16, height: 16 }} />
-              API Docs
+              View on GitHub
             </a>
           </div>
 
@@ -838,11 +838,11 @@ export default function HomePage() {
               Ready to Explore?
             </h3>
             <p className="text-sm mb-6 max-w-xl mx-auto" style={{ color: "#78716C" }}>
-              Open the interactive Swagger UI or try the demo workspace above.
+              Browse the full source code and README on GitHub, or try the interactive demo workspace above.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
               <a
-                href="http://localhost:8000/docs"
+                href="https://github.com/MusaevAkobirSanokulUgli/genai-multimodal-api"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-2.5 rounded-xl font-bold text-sm transition-all"
@@ -852,7 +852,7 @@ export default function HomePage() {
                   boxShadow: "0 2px 12px rgba(245,158,11,0.3)",
                 }}
               >
-                Swagger UI Docs
+                View on GitHub
                 <ArrowRight style={{ width: 14, height: 14 }} />
               </a>
               <Link

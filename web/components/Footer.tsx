@@ -1,6 +1,6 @@
 "use client";
 
-import { Flame, Github, ExternalLink } from "lucide-react";
+import { Flame, Github } from "lucide-react";
 
 const TECH_STACK = [
   "FastAPI", "Pydantic v2", "OpenAI SDK", "asyncio",
@@ -53,7 +53,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/MusaevAkobirSanokulUgli/genai-multimodal-api"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm transition-colors duration-200"
@@ -63,18 +63,6 @@ export default function Footer() {
               >
                 <Github className="w-4 h-4" />
                 GitHub
-              </a>
-              <a
-                href="http://localhost:8000/docs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm transition-colors duration-200"
-                style={{ color: "#78716C" }}
-                onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "#F59E0B"; }}
-                onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "#78716C"; }}
-              >
-                <ExternalLink className="w-4 h-4" />
-                API Docs
               </a>
             </div>
           </div>
