@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GenAI Multi-Modal API | Senior Python AI Engineer Portfolio",
+  title: "GenAI Multi-Modal API | AI Studio",
   description:
     "Production-grade multi-modal AI API showcasing text generation with streaming, GPT-4o vision analysis, DALL-E 3 image generation, Whisper STT/TTS, async pipeline orchestration, content moderation, and MCP-inspired context management.",
   keywords: [
@@ -16,9 +16,10 @@ export const metadata: Metadata = {
     "Python",
     "MCP",
     "AI API",
+    "AI Studio",
   ],
   openGraph: {
-    title: "GenAI Multi-Modal API",
+    title: "GenAI Multi-Modal API — AI Studio",
     description: "Production-grade multi-modal AI API — text, vision, audio, image + pipeline orchestration",
     type: "website",
   },
@@ -30,8 +31,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className="min-h-screen bg-[#020617] antialiased">{children}</body>
+    <html lang="en">
+      <body className="min-h-screen antialiased" style={{ backgroundColor: "#0C0A09" }}>
+        {children}
+      </body>
     </html>
   );
 }
